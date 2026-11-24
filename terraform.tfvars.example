@@ -1,0 +1,8 @@
+# Copy to terraform.tfvars (already gitignored) and fill in with real values
+# for your sandbox account. terraform.tfvars is never committed.
+
+aws_profile                        = "your-sso-profile"
+sandbox_account_id                 = "000000000000"
+org_id                              = "o-xxxxxxxxxx"
+example_external_account_id        = "000000000000" # a real external account for the "named external account" test case
+replication_destination_account_id = "000000000000" # a real account you own outside your org, for VULN-S3-007
